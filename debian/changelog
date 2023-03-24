@@ -1,0 +1,13 @@
+cytovue (1.0-1ubuntu1) zesty; urgency=medium
+
+  * Initial release. 
+
+ -- Cytowise <dont@send.anything>  Fri, 06 Dec 2019 14:28:23 +0800
+
+
+cytovue (2.0-1ubuntu1) zesty; urgency=medium
+
+  * Upgraded vue.js and improved frontend resourse efficiency.
+
+ -- Cytowise <dont@send.anything>  Sun, 11 Oct 2020 19:49:00 +0800
+

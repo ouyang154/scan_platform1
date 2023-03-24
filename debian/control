@@ -1,0 +1,10 @@
+Section: Miscellaneous
+Version: 2.0
+Priority: optional
+Maintainer: Cytowise <cw@unknown>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://www.devdungeon.com/content/debian-package-tutorial-dpkgdeb#toc-1
+Package: cytovue
+Architecture: all
+Description: Thanks 

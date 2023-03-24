@@ -1,0 +1,235 @@
+.tools {
+    list-style: none;
+    margin: 100;
+    padding: 0;
+  }
+  
+.tools li {
+width: 100%;
+height: 40px;
+text-align: center;
+line-height: 50px;
+font-size: 28px;
+border: #dad7d9 solid 1px;
+background: rgba(255,255,255,0.1);
+cursor: pointer;
+/*  position: relative;*/
+}
+
+.tools li:hover {
+background:#BFEFFF;
+/*background: #f2f1f2;*/
+}
+
+.tools li.active {
+background: rgb(108, 214, 250);
+/*background: #888;*/
+}
+
+.hide {
+display: none;
+}
+
+.canvasDiv {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+  
+.icon-tools {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-image: url("../assets/tools-28.png");
+  background-repeat: no-repeat;
+  margin-top: 5px;
+}
+
+.icon-color-gray {
+  background-position: -0px -0px;
+}
+
+.icon-color-red {
+  background-position: -28px -0px;
+}
+
+.icon-color-black {
+  background-position: -56px -0px;
+}
+
+.icon-color-blue {
+  background-position: -84px -0px;
+}
+
+.icon-color-select {
+  background-position: -112px -0px;
+}
+
+.icon-eye-black {
+  background-position: -140px -0px;
+}
+
+.icon-eye-select {
+  background-position: -168px -0px;
+}
+
+.icon-noeye-black {
+  background-position: -196px -0px;
+}
+
+.icon-noeye-select {
+  background-position: -0px -28px;
+}
+
+.icon-grids-black {
+  background-position: -28px -28px;
+}
+
+.icon-grids-select {
+  background-position: -56px -28px;
+}
+
+.icon-nogrids-black {
+  background-position: -84px -28px;
+}
+
+.icon-nogrids-select {
+  background-position: -112px -28px;
+}
+
+.icon-pen-black {
+  background-position: -140px -28px;
+}
+
+.icon-pen-select {
+  background-position: -168px -28px;
+}
+
+.icon-move-black {
+  background-position: -196px -28px;
+}
+
+.icon-move-select {
+  background-position: -0px -56px;
+}
+
+.icon-text-black {
+  background-position: -28px -56px;
+}
+
+.icon-text-select {
+  background-position: -56px -56px;
+}
+
+.icon-dottedline-arrow-black {
+  background-position: -84px -56px;
+}
+
+.icon-dottedline-arrow-select {
+  background-position: -112px -56px;
+}
+
+.icon-line-black {
+  background-position: -140px -56px;
+}
+
+.icon-line-select {
+  background-position: -168px -56px;
+}
+
+.icon-dottedline-black {
+  background-position: -196px -56px;
+}
+
+.icon-dottedline-select {
+  background-position: -0px -84px;
+}
+
+.icon-arrow-black {
+  background-position: -28px -84px;
+}
+
+.icon-arrow-select {
+  background-position: -56px -84px;
+}
+
+.icon-circle-black {
+  background-position: -84px -84px;
+}
+
+.icon-circle-select {
+  background-position: -112px -84px;
+}
+
+.icon-ellipse-black {
+  background-position: -140px -84px;
+}
+
+.icon-ellipse-select {
+  background-position: -168px -84px;
+}
+
+.icon-square-black {
+  background-position: -196px -84px;
+}
+
+.icon-square-select {
+  background-position: -0px -112px;
+}
+
+.icon-rectangle-black {
+  background-position: -28px -112px;
+}
+
+.icon-rectangle-select {
+  background-position: -56px -112px;
+}
+
+.icon-two-black {
+  background-position: -84px -112px;
+}
+
+.icon-four-black {
+  background-position: -112px -112px;
+}
+
+.icon-ten-black {
+  background-position: -140px -112px;
+}
+
+.icon-twenty-black {
+  background-position: -168px -112px;
+}
+
+.icon-forty-black {
+  background-position: -196px -112px;
+}
+.icon-eighty-black {
+  background-position: -0px -140px;
+}
+
+.icon-isoscelesrighttriangle-black {
+  background-position: -28px -140px;
+}
+
+.icon-isoscelesrighttriangle-select {
+  background-position: -56px -140px;
+}
+
+.icon-remove-black {
+  background-position: -84px -140px;
+}
+
+.icon-remove-select {
+  background-position: -112px -140px;
+}
+
+.icon-clear-black {
+  background-position: -140px -140px;
+}
+
+.icon-clear-select {
+  background-position: -168px -140px;
+}

@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+mkdir -p /media/cw/data
+mkdir -p /media/cw/scan_media
+mkdir -p /var/www/vue-cytowise/dist/static
+ln -snf /media/cw/data/exam /var/www/vue-cytowise/dist/static/exam
+ln -snf /media/cw/data/scan_media /var/www/vue-cytowise/dist/static/media
+cp -v /etc/nginx/cytowise.conf /etc/nginx/nginx.conf
+cp -v /etc/nginx/cytowise.default /etc/nginx/sites-available/default
+chown root:root  /var/www/vue-cytowise --recursive
+chmod 755 /media/cw/data /media/cw/scan_media /media/cw /media
+
+systemctl restart nginx

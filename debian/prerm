@@ -1,0 +1,6 @@
+#!/bin/bash
+#systemctl stop vue-cytowise
+#systemctl disable vue-cytowise
+rm -rf /var/www/vue-cytowise
+#systemctl stop review_dispatch
+#systemctl disable review_dispatch
